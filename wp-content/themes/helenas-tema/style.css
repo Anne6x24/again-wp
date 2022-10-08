@@ -12,54 +12,42 @@ Author:      Anne My Munksgaard
 
 }
 
-.elementor-kit-51 {
-    --e-global-color-primary: #6EC1E4;
-    --e-global-color-secondary: #54595F;
-    --e-global-color-text: #7A7A7A;
-    --e-global-color-accent: #61CE70;
-    --e-global-typography-primary-font-family: "Cormorant Garamond", serif;
-    --e-global-typography-primary-font-weight: 100;
-    --e-global-typography-secondary-font-family: "Cormorant Garamond", serif;
-    --e-global-typography-secondary-font-weight: 100;
-    --e-global-typography-text-font-family: "Cormorant Garamond", serif;
-    --e-global-typography-text-font-weight: 100;
-    --e-global-typography-accent-font-family: "Cormorant Garamond", serif;
-    --e-global-typography-accent-font-weight: 100;}
+
 
 /* -------------------------------------- generelle regler ------------------------------ */
 
 body, header, span, p, h1, h2, h3, h4, li, ol, ul {
-    font-family: "Cormorant Garamond", serif;
+    /* font-family: "Cormorant Garamond", serif; */
     font-weight: 100 !important;
     color:black !important;
 }
 
 h2 {
-    font-family: "Cormorant Garamond", serif;
+    /* font-family: "Cormorant Garamond", serif; */
     font-weight: 100 !important;
     color: black !important;
 }
 
 li {
-    font-family: "Cormorant Garamond", serif;
+    /* font-family: "Cormorant Garamond", serif; */
     list-style: none;
     color: black;
 }
 
 ul {
-    font-family: "Cormorant Garamond", serif;
+    /* font-family: "Cormorant Garamond", serif; */
     list-style: none;
     color: black;
 }
 
 ol {
-    font-family: "Cormorant Garamond", serif;
+    /* font-family: "Cormorant Garamond", serif; */
     list-style: none;
     color: black;
 }
 
 a, ._self {
-    font-family: "Cormorant Garamond", serif;
+    /* font-family: "Cormorant Garamond", serif; */
     font-weight: 100 !important;
     color: black !important;
     cursor: pointer;
@@ -68,7 +56,7 @@ a, ._self {
 .elementor-23 .elementor-element.elementor-element-4df0abf .elementor-heading-title
 .elementor-26 .elementor-element.elementor-element-475957d .elementor-heading-title {
     color: #000000;
-    font-family: "Cormorant Garamond", serif !important;
+    /* font-family: "Cormorant Garamond", serif !important; */
     font-weight: 100 !important;
   }
 
@@ -82,20 +70,20 @@ a, ._self {
 .elementor-332 .elementor-element.elementor-element-6fe2fdf .elementor-heading-title
 .elementor-332 .elementor-element.elementor-element-cf5d635 .elementor-heading-title {
     color: #000000;
-    font-family: "Cormorant Garamond", serif !important;
+    /* font-family: "Cormorant Garamond", serif !important; */
     font-weight: 100 !important;
 }
 
 .elementor-287 .elementor-element.elementor-element-6fe2fdf .elementor-heading-title {
     color: #000000;
-    font-family: "Cormorant Garamond", serif !important;
+    /* font-family: "Cormorant Garamond", serif !important; */
     font-weight: 100 !important;
   }
 
   .elementor-454 .elementor-element.elementor-element-6fe2fdf .elementor-heading-title 
   .elementor-454 .elementor-element.elementor-element-cf5d635 .elementor-heading-title {
     color: #000000;
-    font-family: "Cormorant Garamond", serif !important;
+    /* font-family: "Cormorant Garamond", serif !important; */
     font-weight: 100 !important;
 }
 
