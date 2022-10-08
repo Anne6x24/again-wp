@@ -64,7 +64,7 @@
 
             <div class="order">
             <h4>MADE TO ORDER</h4>
-            <p>Please notice, there is a longer delivery time. Each style is made specially for you.</p>
+            <p> <i> Please notice, there is a longer delivery time. Each style is made specially for you.</i></p>
         <?php echo do_shortcode("[pt_view id=e09504d0vo]"); ?>
         </div>
 
