@@ -158,11 +158,11 @@ body:not(.home) .custom-header .entry-meta a:focus, #fullscreen-menu-right-wrap 
    .navigation-full-screen .fullscreen-menu-inside-wrapper .site-title a:focus,
     #primary-search-wrapper .search-toggle:hover, #primary-search-wrapper .search-toggle:focus, #search-toggle, .search-toggle,
     .main-navigation a:hover {
-  color: red;
+  color: #e30613;
 }
 
 .absolute-header.menu-open #fullscreen-menu-toggle:hover, .absolute-header.menu-open #fullscreen-menu-toggle:focus {
-    color: red;
+    color: #e30613;
 }
 
 .menu-label, .primary-search-wrapper, .menu-toggle-wrapper, .search-field {
@@ -206,7 +206,7 @@ body:not(.home) .custom-header .entry-meta a:focus, #fullscreen-menu-right-wrap 
 }
 
 #fullscreen-menu-toggle:hover, #fullscreen-menu-toggle:focus, .absolute-header #fullscreen-menu-toggle:hover, .absolute-header #fullscreen-menu-toggle:focus {
-    color: red;
+    color: #e30613;
 
 }
 
@@ -306,8 +306,8 @@ div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-contain
 /* Knap hover */
 div.wpforms-container-full .wpforms-form button[type=submit]:hover {
     background-color: transparent;
-    color: red;
-    border: 1px solid red;
+    color: #e30613;
+    border: 1px solid #e30613;
 }
 
 /* Formular */
