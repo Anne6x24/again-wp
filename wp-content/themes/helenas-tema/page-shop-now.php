@@ -56,6 +56,7 @@
             <div class="styles">
                 <div class="ship">
                 <h4>READY TO SHIP</h4>
+                <p><i>There is only one of each and it is ready to be shipped right away - buy now or cry later</i></p>
                 
             <?php echo do_shortcode("[pt_view id=89e368804q]"); ?>
         
@@ -67,6 +68,8 @@
             <p> <i> Please notice, there is a longer delivery time. Each style is made specially for you.</i></p>
         <?php echo do_shortcode("[pt_view id=e09504d0vo]"); ?>
         </div>
+
+       
 
         </div>
 	
@@ -99,6 +102,7 @@
 
 			<?php get_template_part('template-parts/footer/site-info'); ?>
 		</div><!-- #site-generator -->
+        <?php echo do_shortcode("[hfe_template id='80']"); ?>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

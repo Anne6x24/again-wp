@@ -53,6 +53,12 @@ a, ._self {
     cursor: pointer;
 }
 
+.navigation.post-navigation {
+    display: none;
+}
+
+
+
 
 
 .elementor-23 .elementor-element.elementor-element-4df0abf .elementor-heading-title
@@ -102,6 +108,11 @@ a, ._self {
 body.navigation-full-screen .fullscreen-menu-inside-wrapper, 
 .navigation-full-screen .header-blank {
     background-color: white;
+}
+
+#fullscreen-menu-toggle {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    color: #e30613;
 }
 
 @media (min-width: 769px) {
@@ -180,7 +191,7 @@ body:not(.home) .custom-header .entry-meta a:focus, #fullscreen-menu-right-wrap 
 }
 
 #menu-item-853{
-    margin-bottom: 10rem;
+    margin-bottom: 6rem;
 }
 
 .fullscreen-menu-inside-wrapper {
@@ -238,28 +249,48 @@ body:not(.home) .custom-header .entry-meta a:focus, #fullscreen-menu-right-wrap 
         font-size: 0.9rem;
     }
 
+    .site-content {
+        margin-inline: 0;
+    }
+
+    #fullscreen-menu-toggle {
+        box-shadow: none;
+        
+    }
+
    
    
 }
 
+/* -------------------------- lille computer ------------------------------------ */
 
-@media only screen and (min-width: 64em) {
+@media (min-width: 1000px) {
+   
 
-    
+    .ship {
+        margin-bottom: 9rem;
+    }
 
-.content-area {
-  float: left;
-  margin-right: -100%;
-  max-width: 100%;
-  width: 100%;
+    .site-content {
+        margin-inline: 18vw;
+    }
+
+    .content-area {
+        float: left;
+        margin-right: -100%;
+        max-width: 100%;
+        width: 100%;
+      }
+      
+      body:not(.home) .custom-header-content {
+          padding: 55px 50px 100px 50px;
+          background-color: white;
+      }
+      
+     
 }
 
-body:not(.home) .custom-header-content {
-    padding: 55px 50px 100px 50px;
-    background-color: white;
-}
 
-}
 
 /* -------------------------------------- styles ------------------------------ */
 .styles {
@@ -276,16 +307,7 @@ body:not(.home) .custom-header-content {
 
 
 
-@media (min-width: 1000px) {
-    .styles {
-        margin-right: 6rem;
-        margin-left: 22rem;
-    }
 
-    .ship {
-        margin-bottom: 9rem;
-    }
-}
 
 /* Styling af order formular */
 /* Tekstfelter */
@@ -299,10 +321,14 @@ div.wpforms-container-full .wpforms-form input[type=date], div.wpforms-container
 
 /* Knap default */
 div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-container-full .wpforms-form .wpforms-page-button {
-    width: 550px;
+    width: 100%;
     background-color: #000000;
     color: white;
     border: none;
+}
+
+#wpforms-submit-178 {
+    width: 100%;
 }
 
 /* Knap hover */

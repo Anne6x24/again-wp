@@ -29,6 +29,7 @@
 			<?php get_template_part('template-parts/footer/site-info'); ?>
 			
 		</div><!-- #site-generator -->
+		<?php echo do_shortcode("[hfe_template id='80']"); ?>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
