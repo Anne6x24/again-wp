@@ -11,6 +11,7 @@
 
 <div class="site-branding">
 	<?php has_custom_logo() ? the_custom_logo() : ''; ?>
+	
 
 	<div class="site-identity">
 		<?php if ( is_front_page() && is_home() ) : ?>

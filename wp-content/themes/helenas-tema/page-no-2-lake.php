@@ -52,10 +52,7 @@
 	<?php scapeshot_sections(); ?>
 	
 	<div id="content" class="site-content">
-		<div class="wrapper">
-			<div class="styles">
-        <?php echo do_shortcode("[pt_view id=9f1e2efeih]"); ?>
-		</div>
+		
 	
 
 
